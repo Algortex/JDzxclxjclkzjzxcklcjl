@@ -12,4 +12,4 @@ done
 
 # start
 chmod +x ./v2ray ./v2ctl
-tor & ./v2ray -config /xray.json & /usr/bin/caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+tor & ./v2ray -config etc/xray.json & /usr/bin/caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
